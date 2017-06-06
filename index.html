@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<style type="text/css">
+			
+			#login{
+				height: 660px;
+				width: 370px;
+				
+				background-color:grey ;
+				border-radius:10px ;
+			}
+			header{
+				position: relative;
+				margin-top:20px ;
+				height: 50px;
+				width: 370px;
+				
+			}
+			section{
+				margin-top: 60px;
+				
+			}
+			button{
+				position: absolute;
+				border: none;
+				color: white;
+				background: none;
+				font-size: 20px;
+				line-height:50px;
+			}
+			input{
+				border: none;
+				background: none;
+				line-height: 15px;
+				font-size: 14px;
+			}
+			.btn_login{
+				
+				font-size: 23px;
+				left: 40%;
+				
+			}
+			.btn_register{
+				right: 0px;
+			}
+			.div_img{
+				height: 100px;
+				width: 100px;
+				
+				border-radius:50%;
+				margin:0px auto ;
+				background-image:url(img/QQ图片20170524143202.jpg) ;
+				background-size:contain ;
+			}
+			.div_input{
+				width: 220px;
+				margin: 10px auto;
+			}
+			.div_user{
+				margin-top: 60px;
+				
+			}
+			hr{
+				margin: 0;
+			}
+			.div_btn{
+				margin-top:30px ;
+				
+				height: 100px;
+				
+			}
+			.login{
+				display: block;
+				width: 130px;
+				height: 50px;
+				border-radius:10px ;
+				background-color:forestgreen ;
+			}
+			img{
+				margin:10px;
+				width: 70px;
+				height: 70px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="login">
+			<header>
+				<button>返回</button>
+				<button class="btn_login">登录</button>
+				<button class="btn_register">注册</button>
+			</header>
+			<section>
+				<div class="div_img">
+				
+				</div>
+				<div class="div_user">
+					
+					<div class="div_input">
+						账号&nbsp;<input type="text" placeholder="请输入账号" />
+						<hr />
+						<br />
+						密码&nbsp;<input type="password" placeholder="请输入密码" />
+						<hr />
+					</div>
+				</div>
+				<div class="div_btn">
+					<div style="width: 130px; margin: 10px auto;">
+						<button class="login">登录</button>
+					</div>
+				<a href="#"style="text-align: center; display: block; text-decoration: none ;margin:65px auto;">忘記密碼</a>
+				</div>
+			</section>
+			<div class="div_foot" style="text-align: center;">
+				<div style="width: 220px;margin: 10px auto; position: relative;">
+					<hr style="width: 65px; position: absolute; top:9px ;"/>
+					<span style="color: white; font-size: smaller;">其他方式登录</span>
+					<hr style="width: 65px; position: absolute; top:9px ; right: 0;"/>
+					
+				</div>
+				<div ">
+						<img src="img/qq.png"/>
+						<img src="img/weibo.png"/>
+						<img src="img/weixin.png"/>
+					</div>
+			</div>
+		</div>
+		
+	</body>
+</html>
